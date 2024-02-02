@@ -30,7 +30,7 @@
   // //const texttogenerate="./assets/R.jpeg"
 
   // const openai = new OpenAI({
-  //   apiKey: "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",
+  //   apiKey: 
   //   dangerouslyAllowBrowser: true,
   // });
 
