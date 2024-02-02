@@ -32,3 +32,5 @@ Users upload images, which are translated into text using the Hugging Face model
 2. Upload an image using the provided interface
 3. View the generated story based on the image
 
+![Login page](image.png)
+
