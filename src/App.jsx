@@ -16,7 +16,7 @@ auth.onAuthStateChanged((user) => user? setLoggedin(true):setLoggedin(false) );
     <Route path="/Fullapp" element={<Fullapp/>}/>
     <Route path="/Login" element={<Login/>}/>
   </Routes>
-    </main>
+    </main> 
   );
 }
 

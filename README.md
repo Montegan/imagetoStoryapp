@@ -1,6 +1,14 @@
 # Image2Story
 
+![Login page](image.png)
+
+![image transcribed to text and audio](<Screenshot 2024-10-18 014506.png>)
+
 Image2Story is an application that translates images to text using a model from Hugging Face and then generates a story based on the extracted text using the OpenAI API. The images uploaded by users are stored in Firebase, and the app is built with React, Langchain.js for llm interaction, and styled with Tailwind CSS.
+
+# To learn More about the project visit the below google Slide document.
+
+https://docs.google.com/presentation/d/1UWUpS05VgiOmsnyFFP9J7F0ruV1tDlrLJh-h5OAF-II/edit?usp=sharing
 
 ## Overview
 
@@ -31,6 +39,3 @@ Users upload images, which are translated into text using the Hugging Face model
 1. Run the application: `npm start`
 2. Upload an image using the provided interface
 3. View the generated story based on the image
-
-![Login page](image.png)
-

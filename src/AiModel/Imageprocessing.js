@@ -7,11 +7,10 @@
 //     return result.generated_text
 // }
 
+//code from app.jsx file
 
-
-//code from app.jsx file 
-
-{/* {result} <br />
+{
+  /* {result} <br />
       <img
         height={500}
         width={500}
@@ -22,43 +21,39 @@
       <br />
       <button type="button" onClick={callgenerator}>
         generate
-      </button> */}
+      </button> */
+}
 
+// const [result, setResult] = useState("hello");
+// console.log(import.meta.env.VITE_api_key);
+// //const texttogenerate="./assets/R.jpeg"
 
-       // const [result, setResult] = useState("hello");
-  // console.log(import.meta.env.VITE_api_key);
-  // //const texttogenerate="./assets/R.jpeg"
+// const openai = new OpenAI({
+//   apiKey:
+//   dangerouslyAllowBrowser: true,
+// });
 
-  // const openai = new OpenAI({
-  //   apiKey: 
-  //   dangerouslyAllowBrowser: true,
-  // });
+// const callgenerator = async () => {
+//   const hf = new HfInference(import.meta.env.VITE_api_key);
+//   //const texttogenerate=require("./assets/R.jpeg")
+//   const cat = await fetch(
+//     "https://media.istockphoto.com/id/583689556/photo/best-friends.jpg?s=612x612&w=0&k=20&c=8_aa7cNcJkqoMB_-ImmCtb-_GHZmDYa8y9sE3rK4uwE="
+//   );
+//   const blobimg = await cat.blob();
+//   const Textgeneration = await hf.imageToText({
+//     data: blobimg,
+//     model: "Salesforce/blip-image-captioning-large",
+//   });
+//   console.log(Textgeneration.generated_text)
+//   const result = await openai.chat.completions.create({
+//     messages: [
+//       {
+//         role: "user",
+//         content: `generate a short description from the following image caption ${Textgeneration.generated_text} `,
+//       },
+//     ],
+//     model: "gpt-3.5-turbo",
+//   });
 
-  // const callgenerator = async () => {
-  //   const hf = new HfInference(import.meta.env.VITE_api_key);
-  //   //const texttogenerate=require("./assets/R.jpeg")
-  //   const cat = await fetch(
-  //     "https://media.istockphoto.com/id/583689556/photo/best-friends.jpg?s=612x612&w=0&k=20&c=8_aa7cNcJkqoMB_-ImmCtb-_GHZmDYa8y9sE3rK4uwE="
-  //   );
-  //   const blobimg = await cat.blob();
-  //   const Textgeneration = await hf.imageToText({
-  //     data: blobimg,
-  //     model: "Salesforce/blip-image-captioning-large",
-  //   });
-  //   console.log(Textgeneration.generated_text)
-  //   const result = await openai.chat.completions.create({
-  //     messages: [
-  //       {
-  //         role: "user",
-  //         content: `generate a short description from the following image caption ${Textgeneration.generated_text} `,
-  //       },
-  //     ],
-  //     model: "gpt-3.5-turbo",
-  //   });
-   
-  //   setResult(result.choices[0].message.content);
-  // };
-
-
-
-
+//   setResult(result.choices[0].message.content);
+// };
